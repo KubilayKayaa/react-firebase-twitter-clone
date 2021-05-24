@@ -1,4 +1,4 @@
 # twitter-clone-react
-twitter-clone-react
 
+## React
 ## Firebase
