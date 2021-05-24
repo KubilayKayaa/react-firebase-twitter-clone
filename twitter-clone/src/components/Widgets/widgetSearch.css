@@ -1,0 +1,23 @@
+.widget-search{
+    display:flex;
+    align-items: center;
+    background: #EBEEF0;
+    position: relative;
+    border-radius: 30px;
+
+}
+.widget-search .search-icon{
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    z-index: 999;
+    
+}
+.widget-search input{
+    margin-left: 12px;
+    padding: 8px 8px 8px 32px;
+    border:none;
+    background: none;
+    font-size: 14px;
+    color:rgb(39, 39, 39);
+}

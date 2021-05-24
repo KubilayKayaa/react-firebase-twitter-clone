@@ -1,0 +1,27 @@
+.sidebar-container{
+    flex:0.2;
+    padding:12px;
+
+}
+.sidebar-logo{
+    margin-bottom: 24px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.sidebar-container .tweet-button{
+    padding:12px 76px;
+    border:none;
+    background: var(--main-blue);
+    color:#fff;
+    border-radius: 50px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 32px;
+    transition: 100ms all;
+    cursor: pointer;
+    display:inline-flex;
+}
+.sidebar-container .tweet-button:hover{
+    background: var(--main-opak-blue);
+}

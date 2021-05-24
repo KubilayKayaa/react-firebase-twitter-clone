@@ -1,0 +1,14 @@
+.content-container{
+    flex:0.6;
+    border:1px solid var(--gray-border);
+    height: 100vh;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+
+.content-container::-webkit-scrollbar
+{
+	width: 0px;
+	background-color: #F5F5F5;
+}
+

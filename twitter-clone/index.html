@@ -1,0 +1,55 @@
+    <div class="field-wrapper">
+        <input type="text" class="form-control" name="user_project_name" id="user_project_name" value="test1"
+            maxlength="800" />
+        <div class="field-placeholder"><span>User Name</span></div>
+    </div>
+    <div class="field-wrapper">
+        <input type="text" class="form-control" name="user_project_definition" id="user_project_definition" value="test"
+            maxlength="3000" />
+        <div class="field-placeholder"><span>User Definition</span></div>
+    </div>
+    <div class="field-wrapper">
+        <div class="panelSelectCustom searchableSelect col-md-3">
+            <label class="selectHeader">User Facility Type</label>
+            <select class="panelSelect" name="user_project_facility_type" id="user_project_facility_type">
+                <option value="">Select</option>
+                <option value="Ship recycling">Ship recycling</option>
+                <option value="Offshore decommissioning (platform dismantling onshore)" selected>Offshore
+                    decommissioning (platform dismantling onshore)</option>
+                <option value="Ship repair yard">Ship repair yard</option>
+                <option value="Ship building yard">Ship building yard</option>
+                <option value="Construction (building)">Construction (building)</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+    </div>
+    <div class="field-wrapper">
+        <input type="text" class="form-control" name="user_project_facility_name" id="user_project_facility_name"
+            value="test1" maxlength="9999999999999999999" />
+        <div class="field-placeholder">
+            <span>User Facility Name</span>
+        </div>
+    </div>
+    <label>User Idendification For Type</label>
+    <input type="hidden" value="For my own company" class="form-control" name="user_project_idendification_for_type"
+        id="user_project_idendification_for_type">
+        <label class="d-flex align-items-center">
+            <input type="radio" name="user_project_idendification_for_type_radiobuttonitem"
+                id="user_project_idendification_for_type_radiobuttonitem_" value=""
+                onchange="customOnChange('user_project_idendification_for_type_radiobuttonitem_','radiobutton')" />
+            <span class="addNewSampleTextRadio">Select</span>
+        </label>
+        <label class="d-flex align-items-center">
+            <input type="radio" name="user_project_idendification_for_type_radiobuttonitem"
+                id="user_project_idendification_for_type_radiobuttonitem_For_my_own_company" value="For my own company"
+                onchange="customOnChange('user_project_idendification_for_type_radiobuttonitem_For_my_own_company','radiobutton')"
+                checked />
+            <span class="addNewSampleTextRadio">For my own company</span>
+        </label>
+        <label class="d-flex align-items-center"> <input type="radio"
+                name="user_project_idendification_for_type_radiobuttonitem"
+                id="user_project_idendification_for_type_radiobuttonitem_For_someone_else_as_a_Consultant"
+                value="For someone else as a Consultant"
+                onchange="customOnChange('user_project_idendification_for_type_radiobuttonitem_For_someone_else_as_a_Consultant','radiobutton')" />
+            <span class="addNewSampleTextRadio">For someone else as a Consultant</span>
+        </label>

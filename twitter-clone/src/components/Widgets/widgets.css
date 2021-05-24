@@ -1,0 +1,13 @@
+.widgets-container{
+    flex:0.2;
+    padding:12px;
+}
+.follow{
+    padding:12px;
+    background: var(--second-gray);
+    margin-top: 16px;
+    border-radius: 8px;
+}
+.follow h3{
+    margin-bottom: 16px;
+}

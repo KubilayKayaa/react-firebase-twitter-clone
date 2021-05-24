@@ -1,0 +1,119 @@
+.register{
+    z-index: 9999999 !important;
+}
+
+.register-button{
+    background: none;
+    border:1px solid #cecece;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 200ms all;
+    margin-left: 12px;
+}
+.register-button:hover{
+    background: #f3f3f3;
+    border:1px solid #f3f3f3;
+}
+.ReactModal__Content{
+    top: 120px !important;
+    height: fit-content;
+    background: #fff !important;
+    position: relative !important;
+    width: 320px;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%,-50%) !important;
+    border:1px solid #eee !important;
+    border-radius: 8px;
+}
+.ReactModal__Overlay{
+    background: rgb(53 53 53 / 96%) !important;
+    z-index: 999999999 !important;
+}
+.close-button{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none !important;
+    border: none !important;
+    padding: 0px !important;
+    cursor: pointer;
+}
+.content{
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin:48px 24px;
+}
+.content input{
+    width: 240px;
+    border:1px solid #e9e9e9;
+    border-radius: 4px;
+    margin:8px 0px;
+    padding: 8px;
+}
+.content-register-button{
+    width: 260px;
+    border:none;
+    background:none;
+    border:2px solid #222222;
+    margin:8px 0px;
+    padding: 8px;
+    cursor: pointer;
+    background: #222222;
+    color: #fff;
+    border-radius: 4px;
+    transition: 200ms all;
+}
+.content-register-button:hover{
+    background: none;
+    color:#222222;
+}
+
+.disable{
+    border:2px solid #eee;
+    background: #eee;
+    cursor: no-drop !important;
+    color:#b1b1b1;
+}
+.disable:hover{
+    background: #eee;
+    color:#b1b1b1;
+}
+
+
+.kayit-notif {
+    width: 235px;
+    margin-top: 24px;
+    position: absolute;
+    bottom: -55px;
+    left: 45px;
+    text-align: center;
+    padding: 12px;
+    animation: notification 2s forwards;
+    border-radius: 4px;
+}
+.olumlu{
+    background: green;
+    color:#fff;
+}
+.olumsuz{
+    background: red;
+    color: #fff;
+}
+
+@keyframes notification {
+    0% {
+        bottom: -55px;
+    }
+
+    50% {
+        bottom: 20px;
+    }
+
+    100% {
+        bottom:-55px;
+    }
+}

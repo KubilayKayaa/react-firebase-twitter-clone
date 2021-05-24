@@ -1,0 +1,24 @@
+
+.sidebarLink-container{
+    display:flex;
+    align-items: center;
+    transition: 100ms all;
+    border-radius: 32px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+}
+.sidebarLink-container:hover{
+    background: var(--second-blue);
+    color:var(--main-blue)
+}
+.sidebarLink-container p{
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sidebarLink-active{
+    color:var(--main-blue);
+}

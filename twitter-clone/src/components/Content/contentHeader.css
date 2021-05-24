@@ -1,0 +1,30 @@
+.content-header{
+    height: 42px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:12px;
+    border-bottom: 1px solid var(--gray-border);
+    z-index: 999;
+    background: #fff;
+}
+.content-header p{
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.content-header .content-header-icon{
+    padding:4px;
+    border-radius: 100%;
+    transition: 100ms all;
+    cursor: pointer;
+}
+
+.content-header .content-header-icon:hover{
+    background: var(--second-blue);
+}
+
+.login-inputs{
+    display:flex;
+    align-items: center;
+}

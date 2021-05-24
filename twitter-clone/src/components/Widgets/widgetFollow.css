@@ -1,0 +1,32 @@
+.widget-follow{
+    display:flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.widget-follow img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+}
+.follow-title{
+    margin:0 12px;
+}
+.follow-button{
+    margin-left: auto;
+    background: none;
+    border:1px solid #ccc;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 50px;
+    transition: 100ms all;
+}
+.follow-button:hover{
+background: #eee;
+}
+.follow-title p:first-child{
+    font-weight: bold;
+}
+.follow-title p:nth-child(2){
+    font-size: 13px;
+}

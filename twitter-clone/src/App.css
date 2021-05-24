@@ -1,0 +1,18 @@
+.app{
+  margin:0 auto;
+  min-width: 1360px;
+  width: 1260px;
+  display:grid;
+  align-items: flex-start;
+  justify-content: space-between;
+  grid-template-columns: 1fr 8fr 3fr;
+}
+
+@media only screen and (max-width: 1360px) {
+  .sidebarLink-container p, .widgets-container, .tweet-button{
+    display: none !important;
+  }
+  .app{
+    grid-template-columns: 0.5fr 9.5fr;
+  }
+}
