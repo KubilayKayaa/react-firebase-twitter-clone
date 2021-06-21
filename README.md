@@ -1,8 +1,8 @@
 # twitter-clone-react
 
-React ve Firebase kullanarak basit bir twitter clone uygulaması yaptım.
+I made a simple twitter clone using React and Firebase.
 
-https://sltxz.csb.app/
+[See Project](https://sltxz.csb.app/)
 
 ## React
 ## Firebase
